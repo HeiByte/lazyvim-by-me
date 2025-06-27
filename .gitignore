@@ -1,0 +1,28 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data 
+
+# Neovim swap & temp files
+*.swp
+*.tmp
+
+# LazyVim plugin cache
+.cache/
+session/
+
+# LazyVim plugin lock file
+lazy-lock.json
+
+# Mason, DAP, LSP, tools temporary
+.mason/
+.log/
+*.log
+
+# Optional: LuaLS recompilation data
+lua_ls_workspace/
+
